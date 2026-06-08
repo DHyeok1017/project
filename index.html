@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>에코가이드 - 맞춤형 분리수거 가이드</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="app-header">
@@ -20,13 +20,11 @@
             <div class="step-badge">STEP 1</div>
             <h2>지역을 선택해주세요</h2>
             <div class="location-box">
-                <button id="btn-gps" class="btn btn-primary">📍 현재 위치로 설정 (GPS)</button>
+                <button id="btn-gps" class="btn btn-primary btn-block">📍 현재 위치로 설정 (GPS)</button>
                 <div class="divider">또는 직접 선택</div>
                 <div class="select-group">
                     <select id="select-region">
                         <option value="">시/도 선택</option>
-                        <option value="seoul">서울특별시</option>
-                        <option value="gyeonggi">경기도</option>
                     </select>
                     <select id="select-district" disabled>
                         <option value="">시/군/구 선택</option>
@@ -39,10 +37,7 @@
         <section class="card step-section disabled" id="step-category">
             <div class="step-badge">STEP 2</div>
             <h2>어떤 쓰레기인가요?</h2>
-            
-            <div class="category-tabs" id="category-tabs">
-                </div>
-
+            <div class="category-tabs" id="category-tabs"></div>
             <div class="sub-category-box">
                 <label for="select-trash-item">상세 항목 선택</label>
                 <select id="select-trash-item" disabled>
@@ -71,7 +66,7 @@
             <div class="form-group">
                 <label class="checkbox-label">
                     <input type="checkbox" id="check-mixed">
-                        <span>테이프, 스티커, 라벨 등 다른 재질이 붙어있나요?</span>
+                    <span>테이프, 스티커, 라벨 등 다른 재질이 붙어있나요?</span>
                 </label>
             </div>
 
@@ -81,24 +76,4 @@
         <section class="card step-section result-section hidden" id="step-result">
             <div class="result-header">
                 <span class="badge" id="result-disposal-type">재활용</span>
-                <h2 id="result-title">배달 떡볶이 용기</h2>
-            </div>
-            
-            <div class="guide-box">
-                <h3>💡 순차적 분리배출 가이드라인</h3>
-                <ol class="guide-list" id="guide-steps">
-                    </ol>
-            </div>
-
-            <div class="tip-box" id="result-tip-box">
-                <strong>⚠️ 우리 동네(지자체) 특이사항:</strong>
-                <p id="result-local-tip">해당 지자체는 목요일 대형 폐기물 수거일입니다.</p>
-            </div>
-
-            <button id="btn-reset" class="btn btn-secondary btn-block">처음부터 다시 찾기</button>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>©
+                <h2 id="result-title">배달
