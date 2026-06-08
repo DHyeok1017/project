@@ -88,14 +88,14 @@ const trashDatabase = {
             beverage: {
                 name: "음료수 알루미늄캔 / 맥주캔",
                 defaultType: "캔류 재활용",
-                baseSteps: ["캔 속 내용물을 완전히 비우고 물로 가볍게 헹굽니다.", "부피를 줄이기 위해 발로 밟아 납작하게 압착하여 배출합니다."],
-                dirtySteps: ["담배꽁초 등 이물질이 들어간 캔은 재활용 품질을 떨어뜨리므로 내부를 완벽히 씻거나 일반쓰레기로 처리합니다."],
+                baseSteps: ["캔 속 내용물을 완전히 비웁니다. 물로 가볍게 헹굽니다.", "부피를 줄이기 위해 발로 밟아 납작하게 압착하여 배출합니다."],
+                dirtySteps: ["담배꽁초 등 이물질이 들어간 캔은 내부를 완벽히 씻거나 일반쓰레기로 처리합니다."],
                 mixedSteps: ["캔 겉면에 붙은 플라스틱 라벨지나 빨대 등 이물질을 완전히 떼어내고 배출하세요."]
             },
             butane: {
                 name: "부탄가스 / 스프레이 캔",
                 defaultType: "캔류(고철) 재활용",
-                baseSteps: ["노즐을 누르고 벽면에 대어 가스를 완전히 빼냅니다.", "통풍이 잘되는 야외에서 캔 펀치나 송곳을 이용해 구멍을 뚫어 잔여 가스를 방출한 뒤 배출합니다."],
+                baseSteps: ["노즐을 누르고 벽면에 대어 가스를 완전히 빼냅니다.", "통풍이 잘되는 야외에서 구멍을 뚫어 잔여 가스를 방출한 뒤 배출합니다."],
                 dirtySteps: ["가스가 남아있을 경우 폭발 사고의 원인이 되므로 완벽하게 배출해야 합니다."],
                 mixedSteps: ["상단의 플라스틱 뚜껑 분사구 노즐 부품을 분리하여 플라스틱으로 따로 배출하세요."]
             },
@@ -114,14 +114,14 @@ const trashDatabase = {
             soju: {
                 name: "소주병 / 맥주병 / 청량음료병",
                 defaultType: "빈용기 보증금 환불 또는 유리 재활용",
-                baseSteps: ["소주, 맥주 등 보증금 환불 문구가 있는 병은 대형마트나 편의점에 반납하여 보증금을 돌려받으세요.", "분리배출 시에는 담배꽁초 등 이물질을 넣지 말고 헹군 뒤 유리에 버립니다."],
-                dirtySteps: ["내부에 오염물질이 고여 씻기지 않는 병은 재활용이 불가능하므로 불연성 쓰레기 봉투로 처리해야 합니다."],
+                baseSteps: ["보증금 환불 문구가 있는 병은 대형마트나 편의점에 반납하여 보증금을 돌려받으세요.", "분리배출 시에는 담배꽁초 등 이물질을 넣지 말고 헹군 뒤 유리에 버립니다."],
+                dirtySteps: ["내부에 오염물질이 고여 씻기지 않는 병은 불연성 쓰레기 봉투로 처리해야 합니다."],
                 mixedSteps: ["병뚜껑(철 또는 플라스틱)은 병과 분리하여 각각의 수거함에 따로 배출해 주세요."]
             },
             broken: {
                 name: "깨진 유리 / 유리컵 / 도자기류",
                 defaultType: "불연성 마대자루 (특수 종량제)",
-                baseSteps: ["깨진 유리는 재활용 선별장에서 수거원에게 부상을 입힙니다. 절대로 유리 수거함에 넣지 마세요.", "신문지에 여러 겹 단단히 짜서 깨진 유리가 밖으로 나오지 않게 한 뒤 마대자루에 넣습니다."],
+                baseSteps: ["깨진 유리는 절대로 유리 수거함에 넣지 마세요.", "신문지에 여러 겹 단단히 싸서 깨진 유리가 밖으로 나오지 않게 한 뒤 마대자루에 넣습니다."],
                 dirtySteps: ["양이 아주 적은 소량의 깨진 유리는 신문지에 싸서 일반 종량제 봉투 깊숙이 안전하게 버릴 수 있습니다."],
                 mixedSteps: ["사설 수거통이나 일반 재활용 유리병과 절대 혼합 배출하지 마세요."]
             }
@@ -152,7 +152,7 @@ const trashDatabase = {
             bone: {
                 name: "치킨 뼈 / 갈비 뼈 / 조개 껍데기",
                 defaultType: "일반 종량제 봉투",
-                baseSteps: ["동물의 뼈와 조개, 전복, 게 껍데기, 달걀 껍질은 단단하여 동물 사료로 쓸 수 없으므로 음식물이 아닙니다.", "물기를 빼고 일반 종량제 봉투에 담아 배출합니다."],
+                baseSteps: ["동물의 뼈와 패각류, 달걀 껍질은 동물 사료로 쓸 수 없으므로 음식물이 아닙니다.", "물기를 빼고 일반 종량제 봉투에 담아 배출합니다."],
                 dirtySteps: ["뼈에 붙은 살코기는 최대한 발라내어 살코기는 음식물로, 뼈는 일반쓰레기로 분류합니다."],
                 mixedSteps: ["음식물 쓰레기통에 혼합하여 배출할 경우 과태료가 부과될 수 있습니다."]
             },
@@ -183,264 +183,260 @@ let currentCategory = "";
 let currentItem = "";
 
 // ==========================================
-// 3. DOM 요소 셀렉터
+// 3. 안전한 DOM 로드 후 스크립트 실행 제어
 // ==========================================
-const selectRegion = document.getElementById("select-region");
-const selectDistrict = document.getElementById("select-district");
-const btnGps = document.getElementById("btn-gps");
-const locationStatus = document.getElementById("location-status");
-
-const stepCategory = document.getElementById("step-category");
-const categoryTabs = document.getElementById("category-tabs");
-const selectTrashItem = document.getElementById("select-trash-item");
-
-const stepCondition = document.getElementById("step-condition");
-const btnAnalyze = document.getElementById("btn-analyze");
-
-const stepResult = document.getElementById("step-result");
-const resultTitle = document.getElementById("result-title");
-const resultDisposalType = document.getElementById("result-disposal-type");
-const guideSteps = document.getElementById("guide-steps");
-const resultLocalTip = document.getElementById("result-local-tip");
-const resultTipBox = document.getElementById("result-tip-box");
-const btnReset = document.getElementById("btn-reset");
-
-// ==========================================
-// 4. 앱 구동 로직 & 이벤트 핸들러
-// ==========================================
-
-// 앱 초기화 실행
-function initApp() {
-    // 시도 셀렉트 옵션 추가
-    selectRegion.innerHTML = '<option value="">시/도 선택</option>';
-    Object.keys(localDistricts).forEach(sido => {
-        const option = document.createElement("option");
-        option.value = sido;
-        option.textContent = sido;
-        selectRegion.appendChild(option);
-    });
-
-    // 카테고리 탭 동적 생성
-    categoryTabs.innerHTML = "";
-    Object.keys(trashDatabase).forEach(key => {
-        const button = document.createElement("button");
-        button.className = "tab-btn";
-        button.textContent = trashDatabase[key].name;
-        button.dataset.category = key;
-        button.addEventListener("click", (e) => selectCategoryTab(key, e.target));
-        categoryTabs.appendChild(button);
-    });
-}
-
-// 시/도 타겟팅 변경 이벤트
-selectRegion.addEventListener("change", (e) => {
-    const region = e.target.value;
-    currentRegion = region;
-    currentDistrict = "";
+window.addEventListener('DOMContentLoaded', () => {
     
-    selectDistrict.innerHTML = '<option value="">시/군/구 선택</option>';
-    stepCategory.classList.add("disabled");
-    stepCondition.classList.add("disabled");
-    resetSelectedCategory();
+    // DOM 요소 셀렉터 정의
+    const selectRegion = document.getElementById("select-region");
+    const selectDistrict = document.getElementById("select-district");
+    const btnGps = document.getElementById("btn-gps");
+    const locationStatus = document.getElementById("location-status");
 
-    if (!region) {
-        selectDistrict.disabled = true;
-        return;
+    const stepCategory = document.getElementById("step-category");
+    const categoryTabs = document.getElementById("category-tabs");
+    const selectTrashItem = document.getElementById("select-trash-item");
+
+    const stepCondition = document.getElementById("step-condition");
+    const btnAnalyze = document.getElementById("btn-analyze");
+
+    const stepResult = document.getElementById("step-result");
+    const resultTitle = document.getElementById("result-title");
+    const resultDisposalType = document.getElementById("result-disposal-type");
+    const guideSteps = document.getElementById("guide-steps");
+    const resultLocalTip = document.getElementById("result-local-tip");
+    const resultTipBox = document.getElementById("result-tip-box");
+    const btnReset = document.getElementById("btn-reset");
+
+    // 초기 실행 환경 세팅
+    initApp();
+
+    function initApp() {
+        if(!selectRegion || !categoryTabs) return;
+
+        // 시/도 드롭다운 항목 생성
+        selectRegion.innerHTML = '<option value="">시/도 선택</option>';
+        Object.keys(localDistricts).forEach(sido => {
+            const option = document.createElement("option");
+            option.value = sido;
+            option.textContent = sido;
+            selectRegion.appendChild(option);
+        });
+
+        // 카테고리 탭 동적 버튼 빌드
+        categoryTabs.innerHTML = "";
+        Object.keys(trashDatabase).forEach(key => {
+            const button = document.createElement("button");
+            button.className = "tab-btn";
+            button.textContent = trashDatabase[key].name;
+            button.dataset.category = key;
+            button.addEventListener("click", (e) => selectCategoryTab(key, e.target));
+            categoryTabs.appendChild(button);
+        });
     }
 
-    // 종속된 시군구 데이터 렌더링
-    selectDistrict.disabled = false;
-    localDistricts[region].forEach(dist => {
-        const option = document.createElement("option");
-        option.value = dist;
-        option.textContent = dist;
-        selectDistrict.appendChild(option);
-    });
-});
-
-// 시군구 최종 타겟 선택 이벤트
-selectDistrict.addEventListener("change", (e) => {
-    currentDistrict = e.target.value;
-    if (currentDistrict) {
-        locationStatus.innerHTML = `📍 <strong>설정된 지역:</strong> ${currentRegion} ${currentDistrict}`;
-        stepCategory.classList.remove("disabled");
-    } else {
+    // 시/도 변경 감지 리스너
+    selectRegion.addEventListener("change", (e) => {
+        const region = e.target.value;
+        currentRegion = region;
+        currentDistrict = "";
+        
+        selectDistrict.innerHTML = '<option value="">시/군/구 선택</option>';
         stepCategory.classList.add("disabled");
-    }
-});
+        stepCondition.classList.add("disabled");
+        resetSelectedCategory();
 
-// Geolocation GPS 코어 기능 구현
-btnGps.addEventListener("click", () => {
-    locationStatus.textContent = "🔄 현재 GPS 신호를 잡고 위치를 파악하는 중입니다...";
-    
-    if (!navigator.geolocation) {
-        locationStatus.textContent = "❌ 이 브라우저 또는 환경에서는 GPS 기능을 지원하지 않습니다.";
-        return;
-    }
+        if (!region) {
+            selectDistrict.disabled = true;
+            return;
+        }
 
-    const gpsOptions = {
-        enableHighAccuracy: true,
-        timeout: 8000,
-        maximumAge: 0
-    };
-
-    navigator.geolocation.getCurrentPosition(
-        (position) => {
-            const lat = position.coords.latitude;
-            const lon = position.coords.longitude;
-            
-            // 데모 및 범용 프로젝트 호환용 역지오코딩 시뮬레이션 인터페이스
-            let simulatedSido = "서울특별시";
-            let simulatedSigungu = "마포구";
-            
-            if (lat > 36.0 && lat < 37.0) {
-                simulatedSido = "대전광역시";
-                simulatedSigungu = "유성구";
-            }
-
-            selectRegion.value = simulatedSido;
-            currentRegion = simulatedSido;
-            
-            selectDistrict.innerHTML = '<option value="">시/군/구 선택</option>';
-            selectDistrict.disabled = false;
-            localDistricts[simulatedSido].forEach(dist => {
-                const option = document.createElement("option");
-                option.value = dist;
-                option.textContent = dist;
-                selectDistrict.appendChild(option);
-            });
-
-            selectDistrict.value = simulatedSigungu;
-            currentDistrict = simulatedSigungu;
-
-            locationStatus.innerHTML = `📍 <strong>GPS 수신 성공:</strong> ${simulatedSido} ${simulatedSigungu} (위도:${lat.toFixed(4)}, 경도:${lon.toFixed(4)})`;
-            stepCategory.classList.remove("disabled");
-            stepCategory.scrollIntoView({ behavior: 'smooth' });
-        },
-        (error) => {
-            switch(error.code) {
-                case error.PERMISSION_DENIED:
-                    locationStatus.textContent = "❌ 위치 정보 권한이 거부되었습니다. 직접 선택해 주세요.";
-                    break;
-                case error.POSITION_UNAVAILABLE:
-                    locationStatus.textContent = "❌ 위치 정보를 사용할 수 없습니다. 직접 선택해 주세요.";
-                    break;
-                case error.TIMEOUT:
-                    locationStatus.textContent = "❌ 위치 정보 확인 시간 초과. 직접 선택해 주세요.";
-                    break;
-                default:
-                    locationStatus.textContent = "❌ GPS 오류 발생. 직접 주소를 선택해 주세요.";
-                    break;
-            }
-        }, 
-        gpsOptions
-    );
-});
-
-// 카테고리 선택 핸들러
-function selectCategoryTab(categoryKey, targetElement) {
-    currentCategory = categoryKey;
-    currentItem = "";
-    
-    document.querySelectorAll(".tab-btn").forEach(btn => btn.classList.remove("active"));
-    targetElement.classList.add("active");
-
-    selectTrashItem.disabled = false;
-    selectTrashItem.innerHTML = '<option value="">쓰레기 종류를 선택하세요</option>';
-    
-    const items = trashDatabase[categoryKey].items;
-    Object.keys(items).forEach(itemKey => {
-        const option = document.createElement("option");
-        option.value = itemKey;
-        option.textContent = items[itemKey].name;
-        selectTrashItem.appendChild(option);
+        // 연동 시군구 바인딩 기동
+        selectDistrict.disabled = false;
+        localDistricts[region].forEach(dist => {
+            const option = document.createElement("option");
+            option.value = dist;
+            option.textContent = dist;
+            selectDistrict.appendChild(option);
+        });
     });
 
-    stepCondition.classList.add("disabled");
-}
+    // 시군구 최종 도달 리스너
+    selectDistrict.addEventListener("change", (e) => {
+        currentDistrict = e.target.value;
+        if (currentDistrict) {
+            locationStatus.innerHTML = `📍 <strong>설정된 지역:</strong> ${currentRegion} ${currentDistrict}`;
+            stepCategory.classList.remove("disabled");
+        } else {
+            stepCategory.classList.add("disabled");
+        }
+    });
 
-function resetSelectedCategory() {
-    document.querySelectorAll(".tab-btn").forEach(btn => btn.classList.remove("active"));
-    selectTrashItem.innerHTML = '<option value="">쓰레기 종류를 선택하세요</option>';
-    selectTrashItem.disabled = true;
-}
+    // 브라우저 내부 GPS Core 프로세스
+    btnGps.addEventListener("click", () => {
+        locationStatus.textContent = "🔄 현재 GPS 신호를 잡고 위치를 파악하는 중입니다...";
+        
+        if (!navigator.geolocation) {
+            locationStatus.textContent = "❌ 이 브라우저 또는 환경에서는 GPS 기능을 지원하지 않습니다.";
+            return;
+        }
 
-selectTrashItem.addEventListener("change", (e) => {
-    currentItem = e.target.value;
-    if (currentItem) {
-        stepCondition.classList.remove("disabled");
-    } else {
+        const gpsOptions = { enableHighAccuracy: true, timeout: 8000, maximumAge: 0 };
+
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                const lat = position.coords.latitude;
+                const lon = position.coords.longitude;
+                
+                // 역지오코딩 시뮬레이터 인터페이스 작동
+                let simulatedSido = "서울특별시";
+                let simulatedSigungu = "마포구";
+                
+                if (lat > 36.0 && lat < 37.0) {
+                    simulatedSido = "대전광역시";
+                    simulatedSigungu = "유성구";
+                }
+
+                selectRegion.value = simulatedSido;
+                currentRegion = simulatedSido;
+                
+                selectDistrict.innerHTML = '<option value="">시/군/구 선택</option>';
+                selectDistrict.disabled = false;
+                localDistricts[simulatedSido].forEach(dist => {
+                    const option = document.createElement("option");
+                    option.value = dist;
+                    option.textContent = dist;
+                    selectDistrict.appendChild(option);
+                });
+
+                selectDistrict.value = simulatedSigungu;
+                currentDistrict = simulatedSigungu;
+
+                locationStatus.innerHTML = `📍 <strong>GPS 수신 성공:</strong> ${simulatedSido} ${simulatedSigungu} (위도:${lat.toFixed(4)}, 경도:${lon.toFixed(4)})`;
+                stepCategory.classList.remove("disabled");
+                stepCategory.scrollIntoView({ behavior: 'smooth' });
+            },
+            (error) => {
+                switch(error.code) {
+                    case error.PERMISSION_DENIED:
+                        locationStatus.textContent = "❌ 위치 정보 권한이 거부되었습니다. 직접 선택해 주세요.";
+                        break;
+                    case error.POSITION_UNAVAILABLE:
+                        locationStatus.textContent = "❌ 위치 정보를 사용할 수 없습니다. 직접 선택해 주세요.";
+                        break;
+                    case error.TIMEOUT:
+                        locationStatus.textContent = "❌ 위치 정보 확인 시간 초과. 직접 선택해 주세요.";
+                        break;
+                    default:
+                        locationStatus.textContent = "❌ GPS 오류 발생. 직접 주소를 선택해 주세요.";
+                        break;
+                }
+            }, 
+            gpsOptions
+        );
+    });
+
+    // 소분류 변경 및 연동
+    function selectCategoryTab(categoryKey, targetElement) {
+        currentCategory = categoryKey;
+        currentItem = "";
+        
+        document.querySelectorAll(".tab-btn").forEach(btn => btn.classList.remove("active"));
+        targetElement.classList.add("active");
+
+        selectTrashItem.disabled = false;
+        selectTrashItem.innerHTML = '<option value="">쓰레기 종류를 선택하세요</option>';
+        
+        const items = trashDatabase[categoryKey].items;
+        Object.keys(items).forEach(itemKey => {
+            const option = document.createElement("option");
+            option.value = itemKey;
+            option.textContent = items[itemKey].name;
+            selectTrashItem.appendChild(option);
+        });
+
         stepCondition.classList.add("disabled");
     }
-});
 
-// 알고리즘 분석기 가동 및 가이드 도출
-btnAnalyze.addEventListener("click", () => {
-    if (!currentCategory || !currentItem) {
-        alert("분석할 쓰레기 종류를 최종 선택해주세요!");
-        return;
+    function resetSelectedCategory() {
+        document.querySelectorAll(".tab-btn").forEach(btn => btn.classList.remove("active"));
+        selectTrashItem.innerHTML = '<option value="">쓰레기 종류를 선택하세요</option>';
+        selectTrashItem.disabled = true;
     }
 
-    const itemData = trashDatabase[currentCategory].items[currentItem];
-    const isDirty = document.querySelector('input[name="contamination"]:checked').value === "dirty";
-    const isMixed = document.getElementById("check-mixed").checked;
-
-    resultTitle.textContent = itemData.name;
-    resultDisposalType.textContent = itemData.defaultType;
-
-    guideSteps.innerHTML = "";
-    let finalSteps = [...itemData.baseSteps];
-
-    if (isMixed) {
-        finalSteps.push(...itemData.mixedSteps);
-    }
-    if (isDirty) {
-        finalSteps.push(...itemData.dirtySteps);
-        resultDisposalType.textContent = "일반 종량제 봉투 배출";
-        resultDisposalType.style.backgroundColor = "var(--danger-color)";
-    } else {
-        resultDisposalType.style.backgroundColor = "var(--success-color)";
-    }
-
-    finalSteps.forEach(step => {
-        const li = document.createElement("li");
-        li.textContent = step;
-        guideSteps.appendChild(li);
+    selectTrashItem.addEventListener("change", (e) => {
+        currentItem = e.target.value;
+        if (currentItem) {
+            stepCondition.classList.remove("disabled");
+        } else {
+            stepCondition.classList.add("disabled");
+        }
     });
 
-    // 지자체 커스텀 팁 조건 검사 및 렌더링
-    const localKey = `${currentRegion}-${currentDistrict}`;
-    if (regionalRules[localKey]) {
-        resultTipBox.classList.remove("hidden");
-        resultLocalTip.textContent = regionalRules[localKey].tip;
-    } else {
-        resultTipBox.classList.remove("hidden");
-        resultLocalTip.textContent = `${currentRegion} ${currentDistrict}의 기본 수거 지침을 따릅니다. 스티커가 필요한 대형 폐기물은 구청 홈페이지에서 신고 후 배출해 주세요.`;
-    }
+    // 알고리즘 분석 결과 출력단
+    btnAnalyze.addEventListener("click", () => {
+        if (!currentCategory || !currentItem) {
+            alert("분석할 쓰레기 종류를 최종 선택해주세요!");
+            return;
+        }
 
-    stepResult.classList.remove("hidden");
-    stepResult.scrollIntoView({ behavior: 'smooth' });
+        const itemData = trashDatabase[currentCategory].items[currentItem];
+        const isDirty = document.querySelector('input[name="contamination"]:checked').value === "dirty";
+        const isMixed = document.getElementById("check-mixed").checked;
+
+        resultTitle.textContent = itemData.name;
+        resultDisposalType.textContent = itemData.defaultType;
+
+        guideSteps.innerHTML = "";
+        let finalSteps = [...itemData.baseSteps];
+
+        if (isMixed) {
+            finalSteps.push(...itemData.mixedSteps);
+        }
+        if (isDirty) {
+            finalSteps.push(...itemData.dirtySteps);
+            resultDisposalType.textContent = "일반 종량제 봉투 배출";
+            resultDisposalType.style.backgroundColor = "var(--danger-color)";
+        } else {
+            resultDisposalType.style.backgroundColor = "var(--success-color)";
+        }
+
+        finalSteps.forEach(step => {
+            const li = document.createElement("li");
+            li.textContent = step;
+            guideSteps.appendChild(li);
+        });
+
+        const localKey = `${currentRegion}-${currentDistrict}`;
+        if (regionalRules[localKey]) {
+            resultTipBox.classList.remove("hidden");
+            resultLocalTip.textContent = regionalRules[localKey].tip;
+        } else {
+            resultTipBox.classList.remove("hidden");
+            resultLocalTip.textContent = `${currentRegion} ${currentDistrict}의 기본 수거 지침을 따릅니다. 스티커가 필요한 대형 폐기물은 구청 홈페이지에서 신고 후 배출해 주세요.`;
+        }
+
+        stepResult.classList.remove("hidden");
+        stepResult.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    // 리셋 처리
+    btnReset.addEventListener("click", () => {
+        stepResult.classList.add("hidden");
+        stepCondition.classList.add("disabled");
+        stepCategory.classList.add("disabled");
+        
+        selectRegion.value = "";
+        selectDistrict.innerHTML = '<option value="">시/군/구 선택</option>';
+        selectDistrict.disabled = true;
+        
+        resetSelectedCategory();
+        
+        document.getElementById("check-mixed").checked = false;
+        document.querySelector('input[name="contamination"][value="clean"]').checked = true;
+        locationStatus.textContent = "지역을 설정하면 해당 지자체의 가이드라인이 적용됩니다.";
+        
+        currentRegion = ""; currentDistrict = ""; currentCategory = ""; currentItem = "";
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 });
-
-// 처음으로 (Reset) 버튼 이벤트
-btnReset.addEventListener("click", () => {
-    stepResult.classList.add("hidden");
-    stepCondition.classList.add("disabled");
-    stepCategory.classList.add("disabled");
-    
-    selectRegion.value = "";
-    selectDistrict.innerHTML = '<option value="">시/군/구 선택</option>';
-    selectDistrict.disabled = true;
-    
-    resetSelectedCategory();
-    
-    document.getElementById("check-mixed").checked = false;
-    document.querySelector('input[name="contamination"][value="clean"]').checked = true;
-    locationStatus.textContent = "지역을 설정하면 해당 지자체의 가이드라인이 적용됩니다.";
-    
-    currentRegion = ""; currentDistrict = ""; currentCategory = ""; currentItem = "";
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-
-// 앱 초기 기동 시 데이터 인젝션
-initApp();
