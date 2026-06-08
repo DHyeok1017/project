@@ -71,7 +71,7 @@ body {
     margin-bottom: 5px;
 }
 
-/* Disabled State */
+/* Disabled & Hidden State */
 .disabled {
     opacity: 0.4;
     pointer-events: none;
@@ -99,7 +99,7 @@ body {
 .btn-success { background-color: var(--success-color); color: white; }
 .btn-secondary { background-color: #6c757d; color: white; }
 
-/* Form Controls & Inputs */
+/* Form Controls & Layouts */
 .divider {
     text-align: center;
     margin: 15px 0;
@@ -123,6 +123,12 @@ select {
     font-size: 0.95rem;
 }
 
+.status-text {
+    margin-top: 12px; 
+    font-size: 0.9rem; 
+    color: #4a5568;
+}
+
 .category-tabs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -136,7 +142,7 @@ select {
     background: white;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-align: center;
 }
 
@@ -145,6 +151,16 @@ select {
     color: white;
     border-color: var(--primary-color);
     font-weight: bold;
+}
+
+.sub-category-box {
+    margin-top: 15px;
+}
+.sub-category-box label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
 }
 
 .form-group { margin-bottom: 15px; }
@@ -183,6 +199,10 @@ select {
     border: 1px solid var(--border-color);
     margin-bottom: 15px;
 }
+.guide-box h3 {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
 .guide-list { padding-left: 20px; }
 .guide-list li { margin-bottom: 8px; font-weight: 500; }
 .tip-box {
@@ -194,4 +214,4 @@ select {
     font-size: 0.9rem;
 }
 
-footer { text-align: center; padding: 4px; color: #a0aec0; font-size: 0.8rem; margin-top: 40px;}
+footer { text-align: center; padding: 20px; color: #a0aec0; font-size: 0.8rem; margin-top: 40px;}
